@@ -46,6 +46,23 @@ f0 41 10 00 00 00 28 12 01 00 02 10 00 00 01 00 f7
 
 ## 4. Sound tweaking
 Both keyboards respond to many effects-related CC commands (e.g portamento, vibrato, filter settings etc.) 
+- CC 5 - Portamento time
+- CC 7 - Volume
+- CC 10 - Pan
+- CC 11 - Expression
+- CC 65 - Portamento on/off
+- CC 71 - Filter Resonance
+- CC 72 - Release Time
+- CC 73 - Attack Time
+- CC 74 - Filter Cutoff
+- CC 75 - Decay Time
+- CC 76 - Vibrato Rate
+- CC 77 - Vibrato Depth
+- CC 78 - Vibrato Delay
+- CC 91 - Reverb Send
+- CC 93 - Chorus Send
+- CC 126 - Mono Operation
+- CC 127 - Poly Operation
 
 ## 5.  GO:PIANO has the same loop mixing fun as GO:KEYS!
 Loop mix modes can be changed and triggered either by using MIDI NRPN commands or via SysEx. NRPN numbers can be found in gokeys-scratch-extension repository. SySex string for GO:PIANO:
