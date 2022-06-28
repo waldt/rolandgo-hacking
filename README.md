@@ -70,6 +70,10 @@ Loop mix modes can be changed and triggered either by using MIDI NRPN commands o
 f0  41 10 00 00 00 3C 12 01 00 00 19 01 00 f7
 ```
 
-## 5. Custom patches!
-It is possible to upload custom patches to GO-keyboards. It shoud be possible to create keyboard splits and layer sounds.
+## 5. Sound layering
+Up to 16 sounds can be played at the same time. See the [SendMIDI](https://github.com/gbevin/SendMIDI) script [here](examples/layering-ep-wind) for an example
+
+## 6. Custom patches!
+It is possible to upload custom patches to GO-keyboards. 
+
 
