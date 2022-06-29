@@ -1,0 +1,10 @@
+# keyboard split "Downright Bass" + "Pop Piano"
+dev "GO:KEYS"
+# performance part 1, piano on channel 1
+raw hex f0 41 10 00 00 00 3C 12 10 00 20 00 00 01 00 00 57 40 1A 64 40 40 40 02 02 02 00 00 00 40 40 40 40 40 40 00 7F 00 00 00 7F 00 32 00 00 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 00 f7
+# performance part 2, bass  on channel 2
+raw hex f0 41 10 00 00 00 3C 12 10 00 21 00 01 01 00 00 57 42 1D 64 40 40 40 02 02 02 00 00 00 40 40 40 40 40 40 00 7F 00 00 00 7F 00 32 00 00 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 00 f7
+# zone 1, set keyboard range to G3-G9
+raw hex f0 41 10 00 00 00 3C 12 10 00 50 00 40 01 00 08 00 00 08 00 08 00 08 00 37 7F 01 01 01 01 01 01 01 01 01 01 01 01 01 00 f7
+# zone 2, switch it on and set keyboard range to C1-F#3
+raw hex f0 41 10 00 00 00 3C 12 10 00 51 00 40 01 00 08 00 00 08 00 08 00 08 00 00 36 01 01 01 01 01 01 01 01 01 01 01 01 01 00 f7

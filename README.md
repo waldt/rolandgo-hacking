@@ -71,9 +71,12 @@ f0  41 10 00 00 00 3C 12 01 00 00 19 01 00 f7
 ```
 
 ## 5. Sound layering
-Up to 16 sounds can be played at the same time. See the [SendMIDI](https://github.com/gbevin/SendMIDI) script [here](examples/layering-ep-wind) for an example
+Up to 16 (or maybe 15 as ch#16 is used for controoling performance) sounds can be played at the same time. See the [SendMIDI](https://github.com/gbevin/SendMIDI) script [here](examples/multiple-channels-layering) for an example.
 
-## 6. Custom patches!
+## 6. Keyboard splits
+Different instruments can be assigned to different parts of the keyboard. See [here](examples/split). 
+
+## 7. Custom patches!
 It is possible to upload custom patches to GO-keyboards. 
 
 

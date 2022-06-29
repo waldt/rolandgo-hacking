@@ -1,4 +1,6 @@
 # layering Phase EP and wind sounds
 dev "GO:KEYS"
+# temp. perf. part 1, set patch
 raw hex f0 41 10 00 00 00 3C 12 10 00 20 00 00 01 00 00 57 40 44 64 40 40 40 02 02 02 00 00 00 40 40 40 40 40 40 00 7F 00 00 00 7F 00 32 00 00 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 00 F7 
+# temp. perf. part 2 , set patch and change channel # to 1
 raw hex f0 41 10 00 00 00 3C 12 10 00 21 00 00 01 00 00 79 03 7A 64 40 40 40 02 02 02 00 00 00 40 40 40 40 40 40 00 7F 00 00 00 7F 00 32 00 00 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 00 F7
