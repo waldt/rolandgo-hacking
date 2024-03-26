@@ -1,3 +1,5 @@
+This work has evolved. See here: https://github.com/waldt/goplus
+
 # Exploring Roland GO:KEYS and GO:PIANO. 
 
 Roland GO:PIANO and GO:KEYS are derived from Roland Juno-DS. Apparently, when Roland released these entry-level keyboards in 2017, it re-used what was developed for Juno-DS released in 2015. Consequently, the GO-keyboards share many of the core capabilities with their advanced and rather more expensive sibling.
